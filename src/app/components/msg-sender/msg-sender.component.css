@@ -1,0 +1,45 @@
+.msg-sender-wrapper{
+    position: absolute;
+    width: 75vw;
+    height: 20vh;
+    top:80vh;
+    left: 0%;
+}
+
+.msg-sender-form{
+    width: inherit;
+    height: inherit;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+.msg-sender-textarea{
+    width: 80%;
+    height: 50%;
+    padding-left: 2%;
+    position: relative;
+    top:2.5%;
+    left: 5%;
+    border-radius: 5px;
+    resize: unset;
+}
+
+#send{
+    width:8vh;height:8vh;
+    background-color:rgb(235, 235, 235);
+    border-radius:50%;
+    position:relative;
+    bottom: 45%;
+    left: 90%;
+}
+#send:active{background-color:rgb(179, 180, 180);}
+#but {
+    width: 0;
+    height: 0;
+    position:absolute;
+    top:2vh;left:2.5vh;
+    border-top: 2vh solid transparent;
+    border-left: 4vh solid rgb(12, 12, 12);
+    border-bottom: 2vh solid transparent;
+}

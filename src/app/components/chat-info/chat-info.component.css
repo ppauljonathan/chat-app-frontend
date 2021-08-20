@@ -1,0 +1,12 @@
+.info-wrapper{
+    padding-left: 5%;
+}
+
+.names-of-mems{
+    width: 90%;
+    position: relative;
+    border: 2px solid white;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.25rem;
+}

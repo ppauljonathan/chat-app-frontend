@@ -1,0 +1,22 @@
+.title{
+    position: relative;
+    top: 0%;left: 0%;
+    width: 75vw;
+    height: 8%;
+    padding-left: 1rem;
+    font-size: 5vh;
+    border: 1px solid white;
+}
+
+.title>h3{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.leaveChat{
+    font-size: 3vh;
+    position: absolute;
+    top: 1vh;
+    right: 15vw;
+}

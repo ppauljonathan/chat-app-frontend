@@ -1,0 +1,17 @@
+<div *ngIf="shouldRender" class="info-wrapper">
+    <br>
+    <h2 class="inf-header">MEMBERS</h2>
+    <br>
+    <h3 *ngFor="let mem of chatMems" class="names-of-mems">
+        {{ mem.email }}
+    </h3>
+
+    <br><br>
+    <div class="btn" (click)="showAllMems()" *ngIf="shouldShowAddButton">Add Members</div>
+    <br>
+    <div *ngIf="shouldShowAddMems">
+        <h3 *ngFor="let mem of allMems" class="names-of-mems" (click)="addUser(mem.id)">
+            {{ mem.email }}
+        </h3>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+.name-form{
+    width: 80%;
+    height: fit-content;
+    padding: 0.5rem;
+    display: block;
+    border: 2px solid white;
+    position: relative;
+    top: 1%;
+    left: 5%;
+    margin-bottom: 1rem;
+}
+
+.name-form>*{
+    margin-bottom: 0.5rem;
+}

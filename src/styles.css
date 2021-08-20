@@ -1,0 +1,13 @@
+*{
+    margin: unset;
+    padding: unset;
+    position: relative;
+}
+.btn{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid white;
+    padding:1%;
+    border-radius: 15%;
+    cursor: pointer;
+}

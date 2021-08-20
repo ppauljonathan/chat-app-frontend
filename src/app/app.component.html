@@ -1,0 +1,11 @@
+<div class="main-window">
+    <app-loader></app-loader>
+    <app-login-box 
+    *ngIf="!isLoggedIn" 
+    (isLoggedIn)="loginState($event)"></app-login-box>
+    <app-list 
+    *ngIf="isLoggedIn" 
+    (isLoggedIn)="loginState($event)"></app-list>
+    <app-chat-window *ngIf="isLoggedIn"></app-chat-window>
+    <div *ngIf="isLoggedIn" class="btn logout" (click)="loginState(false)">Logout</div>
+</div>

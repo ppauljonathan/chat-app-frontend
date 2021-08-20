@@ -1,0 +1,47 @@
+.blurbg{
+    position: absolute;
+    top:0%;left: 0%;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(20,20,20,0.7);
+    z-index: 10;
+}
+
+@keyframes spinner1{
+    100%{transform: rotate(360deg);}
+}
+
+.loader2{
+    width:10vmin;
+    height:10vmin;
+    position:absolute;
+    top:50%;left:50%;
+    margin-top:-5vmin;
+    margin-left:-5vmin;
+}
+.loader2 div{
+    width:inherit;
+    height:inherit;
+    position:inherit;
+    top:inherit;
+    left:inherit;
+    margin-top:inherit;
+    margin-left:inherit;
+    border-radius:50%;
+    border:2vmin solid transparent;
+    border-bottom:2vmin solid rgb(0, 157, 219);
+    animation:spinner1;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: cubic-bezier(.56,.98,.52,-0.01)
+}
+
+.loader2 div:nth-child(2){
+    animation-delay:0.1s;
+}
+.loader2 div:nth-child(3){
+    animation-delay:0.2s;
+}
+.loader2 div:nth-child(4){
+    animation-delay:0.3s;
+}

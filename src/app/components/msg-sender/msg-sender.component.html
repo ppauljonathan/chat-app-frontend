@@ -1,0 +1,12 @@
+<div *ngIf="shouldRender" class="msg-sender-wrapper">
+    <form class="msg-sender-form">
+        <input
+         name="msg" 
+         class="msg-sender-textarea" 
+         placeholder="Send a messsage ..."
+         [(ngModel)]="msg">
+        <div id="send">
+            <div id="but" (click)="sendMsgToChat()"></div>
+        </div>
+    </form>
+</div>

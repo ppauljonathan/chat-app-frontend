@@ -1,0 +1,21 @@
+<div class="login-box">
+    <h3>{{ formType }}</h3>
+    <form>
+        <div class="form-control">
+            <label for="email">Email</label><br>
+            <input type="text" name="email" [(ngModel)]="email">
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label><br>
+            <input type="password" name="password" [(ngModel)]="password">
+        </div>
+        <div *ngIf="formType==='Signup'" class="form-control">
+            <label for="cpassword">Confirm Password</label><br>
+            <input type="password" name="cpassword" [(ngModel)]="cpassword">
+        </div>
+        <input type="button" value="submit" class="btn sub" (click)="submitForm()">
+        <input type="button" value="reset" class="btn res" (click)="resetForm()">
+        <p class="already" *ngIf="formType==='Signup'">Already a member? <a (click)="switchForm()">Login</a></p>
+        <p class="already" *ngIf="formType==='Login'">Not a member? <a (click)="switchForm()">Signup</a></p>
+    </form>
+</div>

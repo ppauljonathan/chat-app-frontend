@@ -1,0 +1,35 @@
+.msg-win-wrapper{
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 75vw;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.you-sent,.other-sent{
+    width: fit-content;
+    height: fit-content;
+    max-width: 90%;
+    word-wrap: normal;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    top:0vh;
+    left: 1vw;
+}
+
+.you-sent>hr,.other-sent>hr{
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.you-sent{
+    background: rgb(0, 157, 219);
+}
+
+.other-sent{
+    background:rgb(110, 110, 110);
+}

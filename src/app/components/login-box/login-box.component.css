@@ -1,0 +1,68 @@
+.login-box{
+    position: absolute;
+    width: 50vw;
+    height: fit-content;
+    border: 2px solid white;
+    border-radius: 10px;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}
+.login-box>form{
+    width: 90%;
+    height: 90%;
+}
+.login-box>h3{
+    padding-top: 2%;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.form-control{
+    width: 90%;
+    height: 15%;
+    position: relative;
+    margin: auto;
+    top:25%;
+    padding: 1%;
+    margin-bottom: 0.2vh;
+}
+
+.form-control>label{
+    left: 15%;
+    top: 15%;
+    width: fit-content;
+    height: fit-content;
+}
+
+.form-control>input{
+    background: #333;
+    color: white;
+    width: 60%;
+    height: 5vh;
+    left: 15%;
+}
+
+.sub{
+    font-size: 1.5vw;
+    top:30%;
+    left:85%;
+}
+.res{
+    font-size: 1.5vw;
+    top:55%;
+    left: 85%;
+}
+.already{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top:30%;
+    padding-bottom: 1rem;
+}
+
+.already>a{
+    position: relative;
+    text-decoration: underline;
+    color: blue;
+}

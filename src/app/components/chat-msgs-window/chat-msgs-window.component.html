@@ -1,0 +1,6 @@
+<div class="msg-win-wrapper" *ngIf="shouldRender">
+    <div *ngFor="let msg of msgs" [ngClass]="{'you-sent':msg.isUser,'other-sent':!msg.isUser}">
+        <h4>{{ msg.senderEmail }}</h4><hr>
+        {{ msg.content }}
+    </div>
+</div>
